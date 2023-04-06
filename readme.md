@@ -4,7 +4,7 @@ By Prince Kr Paswan
 
 This app is responsive for mobiles 
 
-#manual
+# Manual
 User cant the ISRO achivment here even User can search 
 state wise data centre in India and even search satellite 
 of different country by entering the country name in the search box
