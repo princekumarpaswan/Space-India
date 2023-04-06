@@ -4,7 +4,7 @@ By Prince Kr Paswan
 
 This app is responsive for mobiles 
 
-## [Live Link of SPACE DATA](https://discord-clonep.netlify.app/)
+## [Live Link of SPACE DATA](https://prince-space.netlify.app/)
 
 
 ![Completed Website](./img/F1.png)
