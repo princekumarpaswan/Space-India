@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ISRO | DATA</title>
+</head>
+
+<body>
+
+    <!--  navbar-->
+    <nav>
+        <div class="nav">
+            <img src="./img/logo-removebg-preview (1).png" alt="img space" class="logo">
+            <h1 class="navData">ISRO INFOMATION CENETR</h1>
+        </div>
+    </nav>
+
+    <!-- hero SEction -->
+    <section>
+        <div class="heroSec">
+            <div class="heroText">
+                <h1>All About ISRO</h1>
+                <div class="btn">
+                    <button onclick="scrollToBottom()">Discover</button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./img/rocket-removebg-preview.png" alt="img rocket">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- card Table Section -->
+
+    <section id="dataS">
+        <div class="info">
+            <div class="cardBtn">
+                <button onclick="centerData()">ISRO Centers</button>
+                <button onclick="space()">Space Crafts</button>
+                <button onclick="rocket()">Rockets Launches</button>
+                <button onclick="satellites()">Search Satellites</button>
+            </div>
+
+            <!-- table -->
+
+            <div class="table">
+                <input class="search" id="myInput" onkeyup="search()"
+                    placeholder="search centre state wise enter state name" type="text">
+                <table id="mytable">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Place</th>
+                        <th>State</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Semi-Conductor Laboratory (SCL)</td>
+                        <td>Chandigarh</td>
+                        <td>Punjab/Haryana</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Semi-Conductor Laboratory (SCL)</td>
+                        <td>Chandigarh</td>
+                        <td>Punjab/Haryana</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <h1>Made by Prince kr.</h1>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
