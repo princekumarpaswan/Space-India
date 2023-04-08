@@ -9,7 +9,7 @@ User cant the ISRO achivment here even User can search
 state wise data centre in India and even search satellite 
 of different country by entering the country name in the search box
 and use can see all other detail judt clicking on the various button 
-obove the table 
+obove the table . 
 
 ## [Live Link of SPACE DATA](https://prince-space.netlify.app/)
 
